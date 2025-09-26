@@ -17,9 +17,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.radioandrecordmod.init.RadioAndRecordModModItems;
-import net.mcreator.radioandrecordmod.init.RadioAndRecordModModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -39,10 +36,6 @@ public class RadioAndRecordModMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = context.getModEventBus();
-
-		RadioAndRecordModModBlocks.REGISTRY.register(bus);
-
-		RadioAndRecordModModItems.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
