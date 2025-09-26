@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/chain_command_block_back",
+    "up": "minecraft:block/chain_command_block_back",
+    "north": "minecraft:block/chain_command_block_back",
+    "east": "minecraft:block/chain_command_block_back",
+    "south": "minecraft:block/chain_command_block_back",
+    "west": "minecraft:block/chain_command_block_back",
+    "particle": "minecraft:block/chain_command_block_back"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "radio_and_record_mod:block/test"
+    }
+  }
+}

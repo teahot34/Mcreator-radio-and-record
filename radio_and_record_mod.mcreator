@@ -1,17 +1,38 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/radio_and_record_mod/blockstates/test.json",
+          "src/main/resources/assets/radio_and_record_mod/models/item/test.json",
+          "src/main/resources/assets/radio_and_record_mod/models/block/test.json",
+          "src/main/java/net/mcreator/radioandrecordmod/block/TestBlock.java",
+          "src/main/resources/data/radio_and_record_mod/loot_tables/blocks/test.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.radio_and_record_mod.test": "Test"
+    }
   },
   "metadata": {
     "files": [
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/mods.toml",
-      "src/main/java/net/mcreator/radioandrecordmod/RadioAndRecordModMod.java"
+      "src/main/java/net/mcreator/radioandrecordmod/RadioAndRecordModMod.java",
+      "src/main/java/net/mcreator/radioandrecordmod/init/RadioAndRecordModModBlocks.java",
+      "src/main/java/net/mcreator/radioandrecordmod/init/RadioAndRecordModModItems.java"
     ]
   },
   "foldersRoot": {
